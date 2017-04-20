@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081664CF1DA6D01F007BE4A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081664CE1DA6D01F007BE4A2 /* AppDelegate.swift */; };
+		081664D11DA6D01F007BE4A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081664D01DA6D01F007BE4A2 /* ViewController.swift */; };
+		081664D41DA6D01F007BE4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081664D21DA6D01F007BE4A2 /* Main.storyboard */; };
+		081664D61DA6D01F007BE4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081664D51DA6D01F007BE4A2 /* Assets.xcassets */; };
+		081664D91DA6D01F007BE4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081664D71DA6D01F007BE4A2 /* LaunchScreen.storyboard */; };
+		081664E41DA6D01F007BE4A2 /* GoldenThreadsProductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081664E31DA6D01F007BE4A2 /* GoldenThreadsProductionTests.swift */; };
+		081664EF1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081664EE1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.swift */; };
+		081665001DA6D268007BE4A2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081664FF1DA6D268007BE4A2 /* SWRevealViewController.m */; };
+		081665021DA6D357007BE4A2 /* GoldenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081665011DA6D357007BE4A2 /* GoldenTableViewController.swift */; };
+		081665041DA6D42B007BE4A2 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081665031DA6D42B007BE4A2 /* FrontViewController.swift */; };
+		08B8FC571DFF44150081852F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08B8FC561DFF44150081852F /* GoogleService-Info.plist */; };
+		08E625E41DFF48BA002B4D39 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E625E21DFF48BA002B4D39 /* SignInViewController.swift */; };
+		08E625E51DFF48BA002B4D39 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E625E31DFF48BA002B4D39 /* RegisterViewController.swift */; };
+		F3C5FE9EBCE9F3C8C6520F76 /* Pods_GoldenThreadsProduction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2200893FE724467A3CE6DDA4 /* Pods_GoldenThreadsProduction.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		081664E01DA6D01F007BE4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 081664C31DA6D01B007BE4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 081664CA1DA6D01B007BE4A2;
+			remoteInfo = GoldenThreadsProduction;
+		};
+		081664EB1DA6D01F007BE4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 081664C31DA6D01B007BE4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 081664CA1DA6D01B007BE4A2;
+			remoteInfo = GoldenThreadsProduction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081664CB1DA6D01F007BE4A2 /* GoldenThreadsProduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldenThreadsProduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		081664CE1DA6D01F007BE4A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		081664D01DA6D01F007BE4A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		081664D31DA6D01F007BE4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		081664D51DA6D01F007BE4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		081664D81DA6D01F007BE4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		081664DA1DA6D01F007BE4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081664DF1DA6D01F007BE4A2 /* GoldenThreadsProductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenThreadsProductionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		081664E31DA6D01F007BE4A2 /* GoldenThreadsProductionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenThreadsProductionTests.swift; sourceTree = "<group>"; };
+		081664E51DA6D01F007BE4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081664EA1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenThreadsProductionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		081664EE1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenThreadsProductionUITests.swift; sourceTree = "<group>"; };
+		081664F01DA6D020007BE4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081664FD1DA6D267007BE4A2 /* GoldenThreadsProduction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoldenThreadsProduction-Bridging-Header.h"; sourceTree = "<group>"; };
+		081664FE1DA6D268007BE4A2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		081664FF1DA6D268007BE4A2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		081665011DA6D357007BE4A2 /* GoldenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldenTableViewController.swift; sourceTree = "<group>"; };
+		081665031DA6D42B007BE4A2 /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		0820686B1DFF8F8900952E9B /* GoldenThreadsProduction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoldenThreadsProduction.entitlements; sourceTree = "<group>"; };
+		08B8FC561DFF44150081852F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08E625E21DFF48BA002B4D39 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		08E625E31DFF48BA002B4D39 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2200893FE724467A3CE6DDA4 /* Pods_GoldenThreadsProduction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenThreadsProduction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEB83741C1212DB56986EEC /* Pods-GoldenThreadsProduction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenThreadsProduction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldenThreadsProduction/Pods-GoldenThreadsProduction.debug.xcconfig"; sourceTree = "<group>"; };
+		70E531A9E759ACD8C56EC8EC /* Pods-GoldenThreadsProduction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenThreadsProduction.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldenThreadsProduction/Pods-GoldenThreadsProduction.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		081664C81DA6D01B007BE4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C5FE9EBCE9F3C8C6520F76 /* Pods_GoldenThreadsProduction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081664DC1DA6D01F007BE4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081664E71DA6D01F007BE4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081664C21DA6D01B007BE4A2 = {
+			isa = PBXGroup;
+			children = (
+				081664FC1DA6D24D007BE4A2 /* SWRevealController */,
+				081664CD1DA6D01F007BE4A2 /* GoldenThreadsProduction */,
+				081664E21DA6D01F007BE4A2 /* GoldenThreadsProductionTests */,
+				081664ED1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests */,
+				081664CC1DA6D01F007BE4A2 /* Products */,
+				7AD4FC0CAE728A9CA2AC8E46 /* Pods */,
+				AEC1CC34180E2F0F510CA660 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		081664CC1DA6D01F007BE4A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				081664CB1DA6D01F007BE4A2 /* GoldenThreadsProduction.app */,
+				081664DF1DA6D01F007BE4A2 /* GoldenThreadsProductionTests.xctest */,
+				081664EA1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		081664CD1DA6D01F007BE4A2 /* GoldenThreadsProduction */ = {
+			isa = PBXGroup;
+			children = (
+				0820686B1DFF8F8900952E9B /* GoldenThreadsProduction.entitlements */,
+				08B8FC561DFF44150081852F /* GoogleService-Info.plist */,
+				08E625E21DFF48BA002B4D39 /* SignInViewController.swift */,
+				08E625E31DFF48BA002B4D39 /* RegisterViewController.swift */,
+				081664CE1DA6D01F007BE4A2 /* AppDelegate.swift */,
+				081664D01DA6D01F007BE4A2 /* ViewController.swift */,
+				081664D21DA6D01F007BE4A2 /* Main.storyboard */,
+				081664D51DA6D01F007BE4A2 /* Assets.xcassets */,
+				081664D71DA6D01F007BE4A2 /* LaunchScreen.storyboard */,
+				081664DA1DA6D01F007BE4A2 /* Info.plist */,
+				081665011DA6D357007BE4A2 /* GoldenTableViewController.swift */,
+				081665031DA6D42B007BE4A2 /* FrontViewController.swift */,
+			);
+			path = GoldenThreadsProduction;
+			sourceTree = "<group>";
+		};
+		081664E21DA6D01F007BE4A2 /* GoldenThreadsProductionTests */ = {
+			isa = PBXGroup;
+			children = (
+				081664E31DA6D01F007BE4A2 /* GoldenThreadsProductionTests.swift */,
+				081664E51DA6D01F007BE4A2 /* Info.plist */,
+			);
+			path = GoldenThreadsProductionTests;
+			sourceTree = "<group>";
+		};
+		081664ED1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				081664EE1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.swift */,
+				081664F01DA6D020007BE4A2 /* Info.plist */,
+			);
+			path = GoldenThreadsProductionUITests;
+			sourceTree = "<group>";
+		};
+		081664FC1DA6D24D007BE4A2 /* SWRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				081664FE1DA6D268007BE4A2 /* SWRevealViewController.h */,
+				081664FF1DA6D268007BE4A2 /* SWRevealViewController.m */,
+				081664FD1DA6D267007BE4A2 /* GoldenThreadsProduction-Bridging-Header.h */,
+			);
+			name = SWRevealController;
+			sourceTree = "<group>";
+		};
+		7AD4FC0CAE728A9CA2AC8E46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DEB83741C1212DB56986EEC /* Pods-GoldenThreadsProduction.debug.xcconfig */,
+				70E531A9E759ACD8C56EC8EC /* Pods-GoldenThreadsProduction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEC1CC34180E2F0F510CA660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2200893FE724467A3CE6DDA4 /* Pods_GoldenThreadsProduction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		081664CA1DA6D01B007BE4A2 /* GoldenThreadsProduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081664F31DA6D020007BE4A2 /* Build configuration list for PBXNativeTarget "GoldenThreadsProduction" */;
+			buildPhases = (
+				7C504474039A23507F12EC92 /* [CP] Check Pods Manifest.lock */,
+				081664C71DA6D01B007BE4A2 /* Sources */,
+				081664C81DA6D01B007BE4A2 /* Frameworks */,
+				081664C91DA6D01B007BE4A2 /* Resources */,
+				EBA5A4C56BBCCAA88CFDA098 /* [CP] Embed Pods Frameworks */,
+				9A84900D41A0E322B4B9823C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldenThreadsProduction;
+			productName = GoldenThreadsProduction;
+			productReference = 081664CB1DA6D01F007BE4A2 /* GoldenThreadsProduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		081664DE1DA6D01F007BE4A2 /* GoldenThreadsProductionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081664F61DA6D020007BE4A2 /* Build configuration list for PBXNativeTarget "GoldenThreadsProductionTests" */;
+			buildPhases = (
+				081664DB1DA6D01F007BE4A2 /* Sources */,
+				081664DC1DA6D01F007BE4A2 /* Frameworks */,
+				081664DD1DA6D01F007BE4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				081664E11DA6D01F007BE4A2 /* PBXTargetDependency */,
+			);
+			name = GoldenThreadsProductionTests;
+			productName = GoldenThreadsProductionTests;
+			productReference = 081664DF1DA6D01F007BE4A2 /* GoldenThreadsProductionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		081664E91DA6D01F007BE4A2 /* GoldenThreadsProductionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081664F91DA6D020007BE4A2 /* Build configuration list for PBXNativeTarget "GoldenThreadsProductionUITests" */;
+			buildPhases = (
+				081664E61DA6D01F007BE4A2 /* Sources */,
+				081664E71DA6D01F007BE4A2 /* Frameworks */,
+				081664E81DA6D01F007BE4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				081664EC1DA6D01F007BE4A2 /* PBXTargetDependency */,
+			);
+			name = GoldenThreadsProductionUITests;
+			productName = GoldenThreadsProductionUITests;
+			productReference = 081664EA1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		081664C31DA6D01B007BE4A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sugat Nagavkar";
+				TargetAttributes = {
+					081664CA1DA6D01B007BE4A2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 83T7NTJAP3;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					081664DE1DA6D01F007BE4A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 081664CA1DA6D01B007BE4A2;
+					};
+					081664E91DA6D01F007BE4A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 081664CA1DA6D01B007BE4A2;
+					};
+				};
+			};
+			buildConfigurationList = 081664C61DA6D01B007BE4A2 /* Build configuration list for PBXProject "GoldenThreadsProduction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 081664C21DA6D01B007BE4A2;
+			productRefGroup = 081664CC1DA6D01F007BE4A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				081664CA1DA6D01B007BE4A2 /* GoldenThreadsProduction */,
+				081664DE1DA6D01F007BE4A2 /* GoldenThreadsProductionTests */,
+				081664E91DA6D01F007BE4A2 /* GoldenThreadsProductionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		081664C91DA6D01B007BE4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081664D91DA6D01F007BE4A2 /* LaunchScreen.storyboard in Resources */,
+				08B8FC571DFF44150081852F /* GoogleService-Info.plist in Resources */,
+				081664D61DA6D01F007BE4A2 /* Assets.xcassets in Resources */,
+				081664D41DA6D01F007BE4A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081664DD1DA6D01F007BE4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081664E81DA6D01F007BE4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C504474039A23507F12EC92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A84900D41A0E322B4B9823C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldenThreadsProduction/Pods-GoldenThreadsProduction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA5A4C56BBCCAA88CFDA098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldenThreadsProduction/Pods-GoldenThreadsProduction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081664C71DA6D01B007BE4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081664D11DA6D01F007BE4A2 /* ViewController.swift in Sources */,
+				081664CF1DA6D01F007BE4A2 /* AppDelegate.swift in Sources */,
+				08E625E51DFF48BA002B4D39 /* RegisterViewController.swift in Sources */,
+				08E625E41DFF48BA002B4D39 /* SignInViewController.swift in Sources */,
+				081665041DA6D42B007BE4A2 /* FrontViewController.swift in Sources */,
+				081665021DA6D357007BE4A2 /* GoldenTableViewController.swift in Sources */,
+				081665001DA6D268007BE4A2 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081664DB1DA6D01F007BE4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081664E41DA6D01F007BE4A2 /* GoldenThreadsProductionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		081664E61DA6D01F007BE4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081664EF1DA6D01F007BE4A2 /* GoldenThreadsProductionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		081664E11DA6D01F007BE4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 081664CA1DA6D01B007BE4A2 /* GoldenThreadsProduction */;
+			targetProxy = 081664E01DA6D01F007BE4A2 /* PBXContainerItemProxy */;
+		};
+		081664EC1DA6D01F007BE4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 081664CA1DA6D01B007BE4A2 /* GoldenThreadsProduction */;
+			targetProxy = 081664EB1DA6D01F007BE4A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		081664D21DA6D01F007BE4A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				081664D31DA6D01F007BE4A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		081664D71DA6D01F007BE4A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				081664D81DA6D01F007BE4A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		081664F11DA6D020007BE4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		081664F21DA6D020007BE4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		081664F41DA6D020007BE4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEB83741C1212DB56986EEC /* Pods-GoldenThreadsProduction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GoldenThreadsProduction/GoldenThreadsProduction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83T7NTJAP3;
+				INFOPLIST_FILE = GoldenThreadsProduction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StarkInternationals.GoldenThreadsProduction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoldenThreadsProduction-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		081664F51DA6D020007BE4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E531A9E759ACD8C56EC8EC /* Pods-GoldenThreadsProduction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GoldenThreadsProduction/GoldenThreadsProduction.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83T7NTJAP3;
+				INFOPLIST_FILE = GoldenThreadsProduction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StarkInternationals.GoldenThreadsProduction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoldenThreadsProduction-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		081664F71DA6D020007BE4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoldenThreadsProductionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StarkInternationals.GoldenThreadsProductionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldenThreadsProduction.app/GoldenThreadsProduction";
+			};
+			name = Debug;
+		};
+		081664F81DA6D020007BE4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoldenThreadsProductionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StarkInternationals.GoldenThreadsProductionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldenThreadsProduction.app/GoldenThreadsProduction";
+			};
+			name = Release;
+		};
+		081664FA1DA6D020007BE4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoldenThreadsProductionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StarkInternationals.GoldenThreadsProductionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoldenThreadsProduction;
+			};
+			name = Debug;
+		};
+		081664FB1DA6D020007BE4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoldenThreadsProductionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StarkInternationals.GoldenThreadsProductionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoldenThreadsProduction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081664C61DA6D01B007BE4A2 /* Build configuration list for PBXProject "GoldenThreadsProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081664F11DA6D020007BE4A2 /* Debug */,
+				081664F21DA6D020007BE4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		081664F31DA6D020007BE4A2 /* Build configuration list for PBXNativeTarget "GoldenThreadsProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081664F41DA6D020007BE4A2 /* Debug */,
+				081664F51DA6D020007BE4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		081664F61DA6D020007BE4A2 /* Build configuration list for PBXNativeTarget "GoldenThreadsProductionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081664F71DA6D020007BE4A2 /* Debug */,
+				081664F81DA6D020007BE4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		081664F91DA6D020007BE4A2 /* Build configuration list for PBXNativeTarget "GoldenThreadsProductionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081664FA1DA6D020007BE4A2 /* Debug */,
+				081664FB1DA6D020007BE4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 081664C31DA6D01B007BE4A2 /* Project object */;
+}
